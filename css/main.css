@@ -1,0 +1,84 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+div::after,
+div::before {
+    content: "";
+    clear: both;
+}
+body {
+    direction: rtl;
+    font-family: Vazir;
+    font-size: 13px;
+}
+/* font face */
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/eot/Vazir.eot?#') format('eot'),
+        url('../fonts/woff/Vazir.woff') format('woff'),
+        url('../fonts/woff2/Vazir.woff2') format('woff2'),
+        url('../fonts/ttf/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* nav */
+.nav {
+    margin: 0 140px;
+    overflow: hidden;
+}
+.nav__logo {
+    margin: 28px 0;
+    float: right;
+    height: 64px;
+}
+.nav__left-sec {
+    float: left;
+    overflow: hidden;
+}
+.nav__menu {
+    width: 300px;
+    white-space: nowrap;
+    overflow: auto;
+    float: right;
+    margin: 46px 0;
+    margin-left: 45px;
+}
+.nav__menu a:last-child {
+    margin-left: 0;
+}
+.nav__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-left: 17.7px;
+}
+.nav__soacial-icon {
+    float: left;
+    margin: 44px 0;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 0.78em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.nav__soacial-icon svg:last-child {
+    margin-left: 0;
+}
+.icon-twitter, .icon-instagram1, .icon-facebook2 {
+    font-size: 32px;
+    color: #707070;
+    margin-left: 16.5px;
+    cursor: pointer;
+}
