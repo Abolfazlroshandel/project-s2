@@ -31,24 +31,25 @@ body {
 }
 /* nav */
 .nav {
-    margin: 0 140px;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 28px 0;
     overflow: hidden;
 }
 .nav__logo {
-    margin: 28px 0;
     float: right;
     height: 64px;
 }
 .nav__left-sec {
     float: left;
     overflow: hidden;
+    padding: 18px 0;
 }
 .nav__menu {
     width: 300px;
     white-space: nowrap;
     overflow: auto;
     float: right;
-    margin: 46px 0;
     margin-left: 45px;
 }
 .nav__menu a:last-child {
@@ -63,21 +64,20 @@ body {
 }
 .nav__soacial-icon {
     float: left;
-    margin: 44px 0;
 }
 .icon {
     display: inline-block;
-    width: 1em;
-    height: 0.78em;
+    width: 2.47em;
+    height: 2em;
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
+    vertical-align: middle;
 }
 .nav__soacial-icon svg:last-child {
     margin-left: 0;
 }
 .icon-twitter, .icon-instagram1, .icon-facebook2 {
-    font-size: 32px;
     color: #707070;
     margin-left: 16.5px;
     cursor: pointer;
